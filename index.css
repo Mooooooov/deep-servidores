@@ -1,0 +1,114 @@
+body,
+ul,
+li p {
+          margin: 0px;
+          padding: 0px;
+          list-style: none;
+          font-size: 1.2rem;
+}
+
+body {
+          background-color: #19181f;
+}
+
+a {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                    "Lucida Sans", Arial, sans-serif;
+          text-decoration: none;
+          color: #04d361;
+}
+
+::selection {
+          background: #04d361;
+}
+
+.header {
+          display: flex;
+          justify-content: space-between;
+          padding: 23px;
+          align-items: center;
+          flex-wrap: wrap;
+          border-bottom-left-radius: 40px;
+          border-bottom-right-radius: 40px;
+}
+
+.menu {
+          display: flex;
+          padding-right: 20px;
+}
+
+.menu li > a {
+          padding-left: 12px;
+          font-family: "Poppins", sans-serif;
+          font-weight: lighter;
+          padding-right: 20px;
+          color: white;
+}
+
+.menu li > a:hover {
+          color: #04d361;
+          transition: 0.2s ease-in-out;
+}
+
+h1 {
+          text-align: center;
+          display: flex;
+          color: white;
+          padding-top: 50px;
+          font-family: "Poppins", sans-serif;
+          justify-content: center;
+}
+
+.content {
+          font-size: 20px;
+}
+
+.logo > a {
+          font-family: "Poppins", sans-serif;
+          font-weight: bold;
+          margin-left: 75px;
+}
+
+p {
+          font-family: "Poppins", sans-serif;
+          display: flex;
+          color: white;
+          text-decoration: line-through;
+          justify-content: center;
+}
+.batata {
+          font-size: 34px;
+}
+
+.branco {
+          color: white;
+          font-size: 12px;
+          font-weight: lighter;
+}
+
+.flex {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+}
+
+.flex > div {
+          display: flex;
+          flex: 1 1 0;
+          margin: 10px;
+          justify-content: center;
+}
+
+.flex > div > a > img {
+          display: flex;
+          margin: 15px;
+          justify-content: center;
+          transition: all .2s ease-in-out;
+}
+
+.flex > div > a > img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #28282f;
+}
+
+
