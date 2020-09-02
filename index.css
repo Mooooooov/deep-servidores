@@ -112,3 +112,37 @@ p {
 }
 
 
+@media (max-width: 800px) {
+
+  .content{
+    font-size: 14px;
+    display: inline;
+    text-align: left;
+  }
+
+  nav  ul  li  a{
+    display: flex;
+  }
+
+  .imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagens img {
+    width: 400px;
+  }
+
+  .esq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .esq img {
+    width: 400px;
+  }
+  
+}
